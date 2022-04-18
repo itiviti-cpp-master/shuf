@@ -2,7 +2,7 @@
 set(CMAKE_CONFIGURATION_TYPES "ASAN;MSAN;USAN" CACHE STRING "" FORCE)
 
 # General compile and link options
-set(COMPILE_OPTS -O3 -Wall -Wextra -Werror -pedantic -pedantic-errors)
+set(COMPILE_OPTS -O0 -Wall -Wextra -Werror -pedantic -pedantic-errors)
 set(LINK_OPTS "")
 
 set(SANITIZE OFF)
